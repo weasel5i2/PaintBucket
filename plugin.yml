@@ -1,0 +1,18 @@
+name: PaintBucket
+main: net.weasel.PaintBucket.PaintBucket
+version: 1.12
+commands:
+  paintbucket:
+    description: Set the block type to paint with
+    usage: "Usage: /paintbucket <block type id or name>\n         /paintbucket disable\n         /paintbucket stop\n         /paintbucket cancel\n\n         /pb is a shortcut."
+    aliases: pb
+  pbs:
+    description: Emergency stop for PaintBucket
+    usage: "Usage: /pbs"
+  pbstat:
+    description: Shows the status of your current PaintBucket operation, if any..
+    usage: "Usage: /pbstat"
+  paintblock:
+    description: "Sets the next paint operation to use the currently held block to paint (with its ID) instead of the bucket."
+    usage: "Usage: /paintblock"
+    aliases: pblock
